@@ -1,4 +1,4 @@
-LINUX DEBIAN
+
 
 
 R  	=leitura 	valor= 4
@@ -15,7 +15,7 @@ chown
 chgrp
 
 
-	## prática
+## prática
 chmod go-rw teste   //retirando leitura e escrita
 chmod g+r teste    	//adicionando leitura ao grupo
 chmod o=g teste   	//grupo = outros nas permições
