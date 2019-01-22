@@ -27,6 +27,11 @@
 	userdel     	=deleta o usuário mais suas pasta continuam 
 
 
+## USER	deactivating
+## comentar linha que contem o nome do usuario
+	/etc/passwd
+
+
 ##############################
 #                            #
 #          GROUP             #
