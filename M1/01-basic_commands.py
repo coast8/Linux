@@ -1,16 +1,21 @@
 ## entra no sistema como superusuário
 	su = comando para superusuário
 
+
 ## Em linux as partições são representadas como
 	/
+
+
 ## diferente do widows que são representadas como 
 	c:
+
 
 ## [listar]
 	ls 		= listar
 	ls -a   =lista os diretórios ocultos
 	ls -m   =lista na horizontal
 	ls -lh  =listar todas a informação com todos os detalhes
+
 
 ## [arquivos e diretorios]
 	mkdir 				= criar um diretório
@@ -22,19 +27,20 @@
 	cd ..		= retorna um diretório
 	cd / 		= retorna ao diretório raiz
 
+
 ## [arquivos detalhes]
 	cat  nome_do_arquivo 		= executa o arquivo
 	nano arquivo 				= editar o arquivo
-	cp 	caminho_que_taoarquivo 	destino 	=copiar um arquivo
-	mv 	caminho_que_taoarquivo  destino 	=mover um arquivo
-	history 					=lista dos comandos executados
+	cp 	caminho_que_taoarquivo 	destino 	= copiar um arquivo
+	mv 	caminho_que_taoarquivo  destino 	= mover um arquivo
+	history 					= lista dos comandos executados
 	
 
 ## [sistema]
-shift+pageUP 		=visualizar o que estar em cima
-shift+pageDown 		=tela para baixo
-shutdown 			=desligar, esse cmd tem parametros de segundos.
-poweroff 			=deliga o sistema
+	shift+pageUP 		= visualizar o que estar em cima
+	shift+pageDown 		= tela para baixo
+	shutdown 			= desligar, esse cmd tem parametros de segundos.
+	poweroff 			= deliga o sistema
 
 
 ## [Editores de texto]
@@ -66,7 +72,7 @@ poweroff 			=deliga o sistema
 	df -h  					== – / / – em modo humano
 	free -h   				= memória
 	du -h  diritorio  		= espaço que o diretório ocupa
-	bc 					    =calculadora
-	cal  08 2012 			=calendario
-	fdisk -l   				=listar as partições
-	man comando   			=mostra o manual e oq o comando faz.
+	bc 					    = calculadora
+	cal  08 2012 			= calendario
+	fdisk -l   				= listar as partições
+	man comando   			= mostra o manual e oq o comando faz.
