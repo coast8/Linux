@@ -6,8 +6,8 @@
 ##############################
 
 ## USER ADD
-	adduser		=criar atributos de forma automatica.
-	useradd		=criar atributos de forma manual.   	
+	adduser $_new_user		=criar atributos de forma automatica.
+	useradd $_new_user		=criar atributos de forma manual.   	
 
 
 ## USER LIST
@@ -34,7 +34,7 @@
 ##############################
 
 ## GROUP ADD
-	addgroup $_group 			#adiciona grupo
+	addgroup $_group 				=adiciona grupo
 
 
 ## GROUP LIST
@@ -89,17 +89,15 @@
 #                            #
 ##############################
 
-su – usuario    	//já entra direto em outro usuário.
-passwd           	//comando para altera a senha.
-
-who               	//mostra quais são os usuários que estão usando o sistema no exato momento.
-Users             	// ------------------//   ---//////////////--------­
-finger             	// ----------//------- /// --------- mostra também horas 
-whoami         		//------------//---------//      mostra qual usuario você estar ligado
-id                  // mostra statos dos usuários como qual grupo ele pertence e permissões 
-chfn            	//mudar os dados do comando finger
-hostname   			//mostra o nome do computor
-w 					//usuarios conectados ao sistema.
+su – usuario    	=já entra direto em outro usuário.
+who               	=mostra quais são os usuários que estão usando o sistema no exato momento.
+Users             	= ------------------//   ---//////////////--------­
+finger             	= ----------//------- /// --------- mostra também horas 
+whoami         		=------------//---------//      mostra qual usuario você estar ligado
+id                  = mostra statos dos usuários como qual grupo ele pertence e permissões 
+chfn            	=mudar os dados do comando finger
+hostname   			=mostra o nome do computor
+w 					=usuarios conectados ao sistema.
 
 #################################
 #                               #
