@@ -132,26 +132,3 @@ w 					=usuarios conectados ao sistema.
 	usermod -aG sudo sammy
 	su - sammy
 	exit
-
-
-#################################
-#                               #
-#      WebServe Apache          #
-#                               #
-#################################
-
-## Script para descobrir o user_web_server
-## user_web_server.php
-	<?php
-	# user do web_server
-	echo shell_exec("whoami");
-
-
-## Conf VirtualHosts em WebServe
-	sudo chown user_linux:user_web_server /var/www/html -R
-	sudo chmod 775 /var/www/html -R
-
-
-## Conf em Distros Debian
-	sudo chown ubuntu:www-data /var/www/html -R
-	sudo chmod 775 /var/www/html -R
