@@ -14,13 +14,16 @@
 ## o arquivo bin esta sendo usado como exemplo.
 
 comando     copiar/verificar      novo_nome      arquivo 
-tar          -cvf                bin.tar           /bin
-tar          -cvzf               bin.tar.gz        /bin
-tar          -cvjf          	 bin.tar.bz2       /bin
+-------     ----------------     -------------   --------
+tar          -cvf                file.tar        file
+tar          -cvzf               file.tar.gz     file
+tar          -cvjf          	 file.tar.bz2    file
 	
 
 ## Na hora de descompactar é só trocar o c pelo x.
-tar 	-xvjf	  bin.tar.bz2	 /bin 
+-----   -----   ----------
+tar 	-cvf	file.tar 
 
 ## listando arquivos compactados
-tar   -tf   nome_do_arq_compactado  
+-----   -----     ---------
+tar     -tf       file.tar  
