@@ -63,8 +63,8 @@
 
 ## [informações extras]
 	file arquivo 			   			  = mostra informações sobre o tipo de arquivo
-	echo “teste” | rev   =etset     	  == rev vira a palavra
-	echo “teste” | rev | cut -b -2   =et  == cut corta a palavra
+	echo "teste" | rev   =etset     	  == rev vira a palavra
+	echo "teste" | rev | cut -b -2   =et  == cut corta a palavra
 
 
 # [tamanho de disco]

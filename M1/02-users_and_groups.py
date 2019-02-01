@@ -62,17 +62,17 @@
 ##############################
 
 ## ADD
-	gpasswd -a paulo nome-do_grupo    		=add user in grupo
-	adduser - -ingroup grupo novo_usuario   =create user in group.
+	gpasswd -a paulo $_nome_do_grupo    		=add user in grupo
+	adduser - -ingroup grupo $_novo_usuario   	=create user in group.
 
 
 ## LIST
-	groups $_namoe_user				=mostra os grupos de um user.
+	groups $_name_user				=mostra os grupos de um user.
 	cat /etc/group | grep root 		=mostra os usuarios do grupo root.	
 
 
 ## DELETE
-	gpasswd -d paulo nome-do_grupo    	=removendo usuário do grupo
+	gpasswd -d paulo $_nome_do_grupo    	=removendo usuário do grupo
 
 
 ##############################
